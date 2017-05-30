@@ -4,7 +4,11 @@ Rails.application.routes.draw do
   resources :welcome
 
   resources :groups do
-    resources :posts 
+    member do
+      post :join
+      post :quit 
+    end
+    resources :posts
   end
 
  root "groups#index"
