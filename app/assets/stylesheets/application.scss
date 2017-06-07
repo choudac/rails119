@@ -15,3 +15,32 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.jumbotron {
+  background-image:url('https://ww2.sinaimg.cn/large/006tNbRwgy1fgcmp8gt7nj30zk0qo0ys.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
